@@ -1,0 +1,58 @@
+/*
+    Name: Dallas Baldwin
+    Assignment: 4.2 - Build a Web Page Exercise - Part 4
+*/
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+}
+
+.gallery-item {
+    border: 1px solid rgba(185, 63, 8, 1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(185, 63, 8, 1);
+}
+
+h3 {
+    text-align: center;
+    color: rgba(185, 63, 8, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(185, 63, 8, 1);
+}
+
+#bottom {
+    width: 100%;
+    margin-top: 10%;
+}
+
+#bottom a {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
