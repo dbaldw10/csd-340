@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#eef2f6"/>
+  <rect x="180" y="70" width="360" height="230" rx="12" fill="#2f3640"/>
+  <rect x="198" y="88" width="324" height="194" rx="5" fill="#15191e"/>
+  <circle cx="360" cy="185" r="38" fill="#3a414a"/>
+  <line x1="360" y1="160" x2="360" y2="187" stroke="#7b8794" stroke-width="9" stroke-linecap="round"/>
+  <path d="M339 174 A27 27 0 1 0 381 174" fill="none" stroke="#7b8794" stroke-width="9" stroke-linecap="round"/>
+  <path d="M140 310 H580 L630 350 H90 Z" fill="#9aa4af"/>
+  <rect x="300" y="318" width="120" height="12" rx="6" fill="#626d78"/>
+  <text x="360" y="390" text-anchor="middle" font-family="Arial" font-size="24" fill="#23395d">CLICK TO POWER ON</text>
+</svg>

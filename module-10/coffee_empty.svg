@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#f7efe4"/>
+  <ellipse cx="350" cy="325" rx="190" ry="25" fill="#d1c0ab"/>
+  <path d="M245 135 H455 L430 315 H270 Z" fill="#f3f3f3" stroke="#5d4b3c" stroke-width="8"/>
+  <ellipse cx="350" cy="135" rx="105" ry="28" fill="#dedede" stroke="#5d4b3c" stroke-width="8"/>
+  <ellipse cx="350" cy="138" rx="55" ry="12" fill="#a47455"/>
+  <path d="M455 175 C555 160 560 280 445 270" fill="none" stroke="#5d4b3c" stroke-width="18"/>
+  <text x="350" y="230" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="28" fill="#8c8c8c">EMPTY</text>
+  <text x="350" y="385" text-anchor="middle" font-family="Arial" font-size="24" fill="#5d4b3c">CLICK TO REFILL</text>
+</svg>

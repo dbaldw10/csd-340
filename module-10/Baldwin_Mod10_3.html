@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" href="Baldwin_Mod10_3.css">
+
+    <script>
+        function changeLaptop() {
+            var laptop = document.getElementById("laptopImage");
+            var message = document.getElementById("laptopMessage");
+
+            if (laptop.getAttribute("src") === "laptop_off.svg") {
+                laptop.src = "laptop_on.svg";
+                laptop.alt = "Laptop turned on with code displayed";
+                message.innerHTML = "Coding mode activated! Click the laptop again to shut it down.";
+            } else {
+                laptop.src = "laptop_off.svg";
+                laptop.alt = "Laptop turned off";
+                message.innerHTML = "The laptop is off. Click it to start coding.";
+            }
+        }
+
+        function changeCoffee() {
+            var coffee = document.getElementById("coffeeImage");
+            var message = document.getElementById("coffeeMessage");
+
+            if (coffee.getAttribute("src") === "coffee_full.svg") {
+                coffee.src = "coffee_empty.svg";
+                coffee.alt = "Empty coffee cup";
+                message.innerHTML = "That disappeared fast. Click the cup for a refill.";
+            } else {
+                coffee.src = "coffee_full.svg";
+                coffee.alt = "Full coffee cup";
+                message.innerHTML = "Refilled and ready to go. Click the cup to drink it.";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    </header>
+
+    <main>
+        <div class="image-box">
+            <h2>Developer Mode</h2>
+            <img id="laptopImage"
+                 class="clickable-image"
+                 src="laptop_off.svg"
+                 alt="Laptop turned off"
+                 onclick="changeLaptop()">
+            <p id="laptopMessage" class="message">
+                The laptop is off. Click it to start coding.
+            </p>
+        </div>
+
+        <div class="image-box">
+            <h2>Coffee Break</h2>
+            <img id="coffeeImage"
+                 class="clickable-image"
+                 src="coffee_full.svg"
+                 alt="Full coffee cup"
+                 onclick="changeCoffee()">
+            <p id="coffeeMessage" class="message">
+                Refilled and ready to go. Click the cup to drink it.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>CSD 340 Web Development with HTML and CSS</p>
+    </footer>
+</body>
+</html>
